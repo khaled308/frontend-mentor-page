@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32x32.png">
+    <title>Frontend Mentor | Space tourism website</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="flex nav">
+            <div class="logo">
+                <img src="../assets/shared/logo.svg" alt="">
+            </div>
+            <ul class="links flex ">
+                <li><a href="/">00 Home</a></li>
+                <li><a href="/pages/destination.html" class="active-link">01 Destination</a></li>
+                <li><a href="/pages/crew.html">02 Crew</a></li>
+                <li><a href="/pages/technology.html">03 technology</a></li>
+            </ul>
+            <div class="toggle-menu">
+                <img src="../assets/shared/icon-hamburger.svg" alt="" class="toggle">
+                <img src="../assets/shared/icon-close.svg" alt="" class="close">
+            </div>
+        </nav>
+    </header>
+    <div class="destination">
+        <div class="heading">
+            <p> <span>01</span> Pick your destination</p>
+        </div>
+        <div class="content flex">
+            <div class="left">
+                <img src="" alt="" class="destination-img">
+            </div>
+            <div class="right">
+                <ul class="tabs flex">
+                    <li><a href="?destination=moon" class="active-link">moon</a></li>
+                    <li><a href="?destination=mars">mars</a></li>
+                    <li><a href="?destination=europa">europa</a></li>
+                    <li><a href="?destination=titan">titan</a></li>
+                </ul>
+                <div class="txt">
+                    <h2></h2>
+                    <p></p>
+                </div>
+                <div class="details flex">
+                    <p>
+                        <span class="details-heading">Avg. distance</span>
+                        <span class="destinace"></span>
+                    </p>
+                    <p>
+                        <span class="details-heading">Avg. distance</span>
+                        <span class="time"></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/main.js"></script>
+</body>
+</html>
